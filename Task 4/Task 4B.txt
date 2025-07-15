@@ -1,0 +1,6 @@
+Diffie-Hellman (DH) key exchange is widely used in real-world secure communication protocols such as TLS (used in HTTPS),
+VPN tunnels like IPSec, and secure messaging apps including Signal and WhatsApp. It allows two parties to securely agree
+on a shared secret over an untrusted network, without ever transmitting the secret itself. This shared secret is then
+used to encrypt communications. One of the most important advantages of Diffie-Hellman is its support for forward
+secrecy: even if long-term keys are later compromised, past sessions remain secure. This makes it a foundational
+component in modern cryptographic systems that require both confidentiality and long-term security guarantees.
